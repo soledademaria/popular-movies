@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Popular Movies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/css.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Filmes Populares</h1>
+      <div class="input-container">
+        <input
+          type="text"
+          name="movie-name"
+          id="movie-name"
+          class="search"
+          placeholder="Digite algum filme para pesquisar..."
+        />
+        <button class="search-btn" id="search-btn">
+          <img src="./assets/search-icon.svg" alt="" />
+        </button>
+      </div>
+      <div class="show-favourites">
+        <input type="checkbox" name="onlyFavorites" id="onlyFavorites" />
+        <span>Mostrar apenas meus filmes favoritos</span>
+      </div>
+      <div class="movies"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

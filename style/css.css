@@ -1,0 +1,104 @@
+body{
+    background: #17162E;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color: #fff;
+}
+.input-container{
+    display: flex;
+    align-items: center;
+}
+.search{
+    outline: none;
+    border: none;
+    height: 3rem;
+    width: 22rem;
+    background: #FFFFFF;
+    opacity: 0.2;
+    border-radius: 8px 0 0 8px;
+    padding: 0 15px;
+}
+.search-input::placeholder{
+    color: #8A8A8A;
+    padding: 5px;
+}
+
+.search-btn{
+    outline: none;
+    border: none;
+    height: 3.1rem;
+    width: 3rem;
+    border-radius: 0px 8px 8px 0px;
+    background: #FFFFFF;
+    color: #fff;
+    opacity: 0.2;
+    cursor: pointer;
+}
+.show-favourites{
+    margin-top: 10px;
+}
+.show-favourites span{
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+.movie-card{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    align-items: center;
+    background: #1D1C3B;
+    border-radius: 4px;
+    width: 75rem;
+    height: 12rem;
+    box-shadow: 32.8387px 24.5482px 79px rgba(0, 0, 0, 0.15), 23.8851px 17.855px 53.2479px rgba(0, 0, 0, 0.121406), 16.6246px 12.4276px 34.4391px rgba(0, 0, 0, 0.10125), 10.9035px 8.15079px 21.3701px rgba(0, 0, 0, 0.0867188), 6.56775px 4.90965px 12.8375px rgba(0, 0, 0, 0.075), 3.46346px 2.58907px 7.6377px rgba(0, 0, 0, 0.0632813), 1.4367px 1.07399px 4.56719px rgba(0, 0, 0, 0.04875), 0.333519px 0.249318px 2.42246px rgba(0, 0, 0, 0.0285938);
+}
+.sinopse{
+    width: 40rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #acacac;
+}
+.movie-picture{
+    border-radius: 50%;
+    width: 92px;
+    height: 92px;
+}
+
+.movie-classification{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.movie-classification span{
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.d-flex span{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+}
